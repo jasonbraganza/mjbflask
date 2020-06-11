@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    {% if title %}
+    <title>
+        {{title}} - MJB’s Microblog
+    </title>
+    {% else %}
+    <title>Welcome to the bland, no good title for this page!</title>
+    {% endif %}
+</head>
+
+<body>
+    <h1>
+        Welcome, {{user.username}}!
+    </h1>
+</body>
+
+</html>
