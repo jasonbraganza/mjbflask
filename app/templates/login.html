@@ -3,7 +3,7 @@
 {% block content %}
 {{ form.hidden_tag() }}
 <h1>Sign in, to your account</h1>
-<form action="" method="POST"></form>
+<form action="" method="POST">
 <p>
 {{ form.username.label }}<br/>
 {{ form.username(size=32) }}
@@ -18,4 +18,5 @@
 <p>
 {{ form.submit() }}
 </p>
+</form>
 {% endblock content %}
